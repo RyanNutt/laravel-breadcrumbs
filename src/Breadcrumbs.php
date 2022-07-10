@@ -115,6 +115,8 @@ class Breadcrumbs implements Stringable
 
         $out .= view('breadcrumbs::jsonld', ['jsonld' => $jsonld, 'crumbs' => $this->crumbs])->render();
 
+        if ($echo) echo $out;
+
         return $out;
     }
 
