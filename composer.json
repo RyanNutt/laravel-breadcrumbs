@@ -56,10 +56,7 @@
         "laravel": {
             "providers": [
                 "Aelora\\Breadcrumbs\\BreadcrumbsServiceProvider"
-            ],
-            "aliases": {
-                "Breadcrumbs": "Aelora\\Breadcrumbs\\Facades\\Breadcrumbs"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",
